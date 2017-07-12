@@ -67,12 +67,12 @@ def get_tuples(func, n, target, **kwargs):
 # Changing the order may increase the speed of solving
 
 groups = [{"func": hearts, "n": 4, "target": 39, "squares": [(2, 2), (2, 3), (3, 2), (3, 3)]},
-         {"func": hearts, "n": 5, "target": 36, "squares": [(1, 1), (1, 2), (1, 3), (2, 1), (3, 1)]},
          {"func": hearts, "n": 4, "target": 20, "squares": [(2, 5), (2, 6), (3, 5), (3, 6)]},
-         {"func": hearts, "n": 5, "target": 34, "squares": [(1, 5), (1, 6), (1, 7), (2, 7), (3, 7)]},
          {"func": spades, "n": 4, "target": 21, "squares": [(5, 2), (5, 3), (6, 2), (6, 3)]},
-         {"func": clubs, "n": 5, "target": 130, "squares": [(5, 1), (6, 1), (7, 1), (7, 2), (7, 3)]},
          {"func": diamonds, "n": 4, "target": 79, "squares": [(5, 5), (5, 6), (6, 5), (6, 6)]},
+         {"func": hearts, "n": 5, "target": 36, "squares": [(1, 1), (1, 2), (1, 3), (2, 1), (3, 1)]},
+         {"func": hearts, "n": 5, "target": 34, "squares": [(1, 5), (1, 6), (1, 7), (2, 7), (3, 7)]},
+         {"func": clubs, "n": 5, "target": 130, "squares": [(5, 1), (6, 1), (7, 1), (7, 2), (7, 3)]},
          {"func": clubs, "n": 5, "target": 91, "squares": [(5, 7), (6, 7), (7, 5), (7, 6), (7, 7)]},
          {"func": diamonds, "n": 2, "target": 13, "squares": [(1, 4), (2, 4)]},
          {"func": hearts, "n": 2, "target": 28, "squares": [(6, 4), (7, 4)]},
