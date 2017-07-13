@@ -1,0 +1,7 @@
+prune before searching
+eg for every square region's two rows and two columns, treat them unordered
+
+change recursive backtracking order to "greedy"
+if only one possible number can be in a square, fill it in
+if none, backtrack
+if more than one for all, fill in minimum
